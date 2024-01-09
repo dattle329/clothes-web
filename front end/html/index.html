@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áo sơ mi</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="icon" type="image/icon" href="../image/icon title.png">
+</head>
+<body>
+    <header>
+        <div class="haf1">
+            <div class="phone">
+                <p><i class="fa-solid fa-phone"></i> 098 765 4321</p>
+            </div>
+            <div class="user">
+                <div id="username-display"></div>
+                <a href="../html/product.html"><i class="fa-solid fa-briefcase"></i> Sản phẩm</a>
+                <a href="../html/cart.html"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a>
+                <button type="button" id="hiii" onclick="logout()">Đăng xuất</button>
+            </div>
+        </div>
+
+        <div class="haf2">
+            <div class="logo">
+                <a href=""><img src="../image/lv logo.png" alt="Logo"></a>
+            </div>
+            <div class="mid-head">
+                <ul>
+                    <li>
+                        <a href=""><b>ÁO</b></a>
+                        <div class="dropdown_menu">
+                            <ul >
+                                <li><a href="">Sơ mi dài tay</a></li>
+                                <li><a href="">Sơ mi cộc tay</a></li>
+                                <li><a href="">Áo khoác</a></li>
+                                <li><a href="">Vest</a></li>
+                                <li><a href="">T-shirt</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href=""><b>QUẦN</b></a>
+                        <div class="dropdown_menu">
+                            <ul >
+                                <li><a href="">Quần Âu</a></li>
+                                <li><a href="">Quần Kaki</a></li>
+                                <li><a href="">Quần Short</a></li>
+                                <li><a href="">Quần Jean</a></li>
+                                <li><a href="">Quần Model</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><b>ĐỒ BỘ</b></a></li>
+                    <li><a href=""><b>NHÃN HIỆU</b></a></li>
+                    <li><a href=""><b>BLOG</b></a></li>
+                    <li><a href=""><b>HƯỚNG DẪN CHỌN SIZE</b></a></li>
+                </ul>
+            </div>
+            <div class="search">
+                    <input type="text" name="search" id="search", placeholder="Tìm kiếm..." onkeyup="search()">
+                    <button ><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="home">
+            <span><i class="fa-sharp fa-solid fa-house"></i> Trang chủ</span>
+            <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+            <span>Sơ mi dài tay </span>
+        </div>
+        <div class="ho-img">
+            <img src="../image/sơ mi home.jpg">
+        </div>
+
+        <div class="rest">
+            <div class="top1">
+                <p><b>Sơ Mi Dài Tay</b></p>
+            </div>
+
+            <div class="list-item" id="list-item">
+                <div class="item">
+                    <img src="../image/somi1.webp" alt="">
+                    <div class="info">
+                        <h5>Áo Sơ Mi Cotton Trắng SMD.1161</h5>
+                        <p>799,000đ</p>
+                    </div>
+                    <div class="phu">
+                        <span><a href=""><i class="fa-solid fa-cart-shopping"></i> Mua nhanh</a></span>
+                        <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span><i class="fa-solid fa-eye"></i> Xem chi tiết</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../image/somi2.jpg" alt="">
+                    <div class="info">
+                        <h5>Áo Sơ Mi Cotton Trắng SMD.1162</h5>
+                        <p>799,000đ</p>
+                    </div>
+                    <div class="phu">
+                        <span><a href=""><i class="fa-solid fa-cart-shopping"></i> Mua nhanh</a></span>
+                        <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span><i class="fa-solid fa-eye"></i> Xem chi tiết</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../image/somi3.jpg" alt="">
+                    <div class="info">
+                        <h5>Áo Sơ Mi Cotton Trắng SMD.1163</h5>
+                        <p>799,000đ</p>
+                    </div>
+                    <div class="phu">
+                        <span><a href=""><i class="fa-solid fa-cart-shopping"></i> Mua nhanh</a></span>
+                        <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span><i class="fa-solid fa-eye"></i> Xem chi tiết</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../image/somi4.webp" alt="">
+                    <div class="info">
+                        <h5>Áo Sơ Mi Cotton Trắng SMD.1164</h5>
+                        <p>799,000đ</p>
+                    </div>
+                    <div class="phu">
+                        <span><a href=""><i class="fa-solid fa-cart-shopping"></i> Mua nhanh</a></span>
+                        <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span><i class="fa-solid fa-eye"></i> Xem chi tiết</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../image/somi5.jpg" alt="">
+                    <div class="info">
+                        <h5>Áo Sơ Mi Cotton Trắng SMD.1165</h5>
+                        <p>799,000đ</p>
+                    </div>
+                    <div class="phu">
+                        <span><a href=""><i class="fa-solid fa-cart-shopping"></i> Mua nhanh</a></span>
+                        <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span><i class="fa-solid fa-eye"></i> Xem chi tiết</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../image/somi6.jpg" alt="">
+                    <div class="info">
+                        <h5>Áo Sơ Mi Cotton Trắng SMD.1166</h5>
+                        <p>799,000đ</p>
+                    </div>
+                    <div class="phu">
+                        <span><a href=""><i class="fa-solid fa-cart-shopping"></i> Mua nhanh</a></span>
+                        <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span><i class="fa-solid fa-eye"></i> Xem chi tiết</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../image/somi7.jpg" alt="">
+                    <div class="info">
+                        <h5>Áo Sơ Mi Cotton Trắng SMD.1167</h5>
+                        <p>799,000đ</p>
+                    </div>
+                    <div class="phu">
+                        <span><a href=""><i class="fa-solid fa-cart-shopping"></i> Mua nhanh</a></span>
+                        <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span><i class="fa-solid fa-eye"></i> Xem chi tiết</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../image/somi8.jpg" alt="">
+                    <div class="info">
+                        <h5>Áo Sơ Mi Cotton Trắng SMD.1168</h5>
+                        <p>799,000đ</p>
+                    </div>
+                    <div class="phu">
+                        <span><a href=""><i class="fa-solid fa-cart-shopping"></i> Mua nhanh</a></span>
+                        <span><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span><i class="fa-solid fa-eye"></i> Xem chi tiết</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <div class="papa">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+    </div>
+    <footer>
+        <div class="foot-info">
+            <a href="">Giới thiệu công ty</a>
+            <a href="">Tuyển dụng</a>
+            <a href="">Gửi góp ý, khiếu nại</a>
+            <a href="">Tìm chi nhánh gần bạn</a>
+            <a href="">Xem thêm </a>
+        </div>
+
+        <div class="foot-info">
+            <p><b>Tổng đài hỗ trợ</b></p>
+            <p>Khiếu nại: <span>1800.1062</span> (8:00 - 21:30)</p>
+            <p>Bảo hành: <span>1900 232 464</span> (8:00 - 21:00)</p>
+        </div>
+
+        <div class="foot-info">
+            <p><i class="fa-brands fa-facebook" style="color: rgb(49, 49, 189);"></i> Aosomiluxyry</p>
+            <p><i class="fa-brands fa-youtube" style="color: rgb(217, 15, 15);"></i> Aosomiluxyry</p>
+            <p><i class="fa-brands fa-instagram" style="color: rgb(234, 14, 14);"></i> Aosomiluxyry</p>
+        </div>
+    </footer>
+
+    <script src="../js/index.js"></script>
+    
+</body>
+</html>

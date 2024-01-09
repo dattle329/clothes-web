@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../image/bg4.jpg");
+    background-size: cover;
+    background-position: center; /* Cố định vị trí hiển thị hình nền ở giữa */
+    /* Các thuộc tính CSS khác nếu cần */
+    margin: 0; /* Đảm bảo không có margin mặc định */
+    height: 100vh; /* Đảm bảo chiều cao 100% của viewport */
+}
+
+.sign-form{
+    background-color: transparent;
+    width: 330px;
+    height: 380px;
+    margin-top: 200px;
+    margin-left: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 16px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(221, 16, 16, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+.sign-form .form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.sign-form .form input{
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgb(183, 168, 168);
+    width: 270px;
+    outline: none;
+}
+
+.sign-form .form input:focus{
+    border: 1px solid rgb(0, 38, 255);
+}
+
+.btn1{
+    width: 270px;
+}
+
+.btn1 button{
+    padding: 9px 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forgot-pw a{
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: 100;
+
+}
+
+.sign-form .vr{
+    background-color: grey;
+    height: 1px;
+    width: 270px;
+}
+
+.btn2{
+    width: 200px;
+}
+
+.btn2 button{
+    padding: 12px 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(20, 186, 23);
+    color: white;
+    font-weight: bold;
+}
+
+.btn2 button a{
+    text-decoration: none;
+    color: white;
+}

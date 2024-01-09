@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: chocolate;
+    padding: 24px 0;
+    text-align: center;
+}
+
+header p{
+    color: white;
+    font-weight: bold;
+}
+
+form{
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    max-width: 560px;
+}
+
+.ro{
+    display: flex;
+    flex-direction: column;
+}
+
+.ro label::after{
+    content: ' *';
+    color: red;
+}
+
+.ro input{
+    height: 40px;
+    font-weight: inherit;
+    font-family: inherit;
+    padding: 0 8px;
+}
+
+.form-submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-submit input{
+    padding: 8px 16px;
+}
+
+.table-container{
+    margin-top: 24px;
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #d3d3d3;
+}
+
+table{
+    height: 100%;
+    width: 70%;
+    cursor: pointer;;
+    border-collapse: collapse;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+}
+
+th, td{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 4px 4px;
+}
+
+th, td img{
+    width: 80px;
+    height: 80px;
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+
+tbody tr:hover{
+    background-color: #dddddd;
+}
+
+td button{
+    padding: 4px 8px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
